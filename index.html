@@ -7,23 +7,23 @@
     <title>Calculadora Álcool x Gasolina</title>
     <link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/imagens/icone-carro.png">
-   
+    <link rel="icon" href="/imagens/icone-carro.png">       
 </head>
 <body>
+    <script src="/script.js"></script>
 <header>
     <div>
        <h1> <img src="/imagens/carros_cabecalho1.png" alt="Logo do Seu carro seu bolso"></h1>
         <nav>
-            <ul>
-                <li>Calcule</li>
-                <li>Dicas</li>
-                <li>Carros e Consumos</li>
+            <ul class="navegacao">
+                <li><a href="index.html">Calcule</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
             </ul>
         </nav>
     </div>
 </header>
-    <div>
+<main>
+    <section class="texto-principal">
         <h1>Calculadora de combustível</h1>
             <h2>Faça o cálculo e descubra qual é mais vangajoso</h2>
                 <P>A principal diferença entre os dois combustíveis está na proporção entre o preço e o desempenho de cada um. 
@@ -33,12 +33,15 @@
                     Preencha os campos abaixo com os preços dos combustíveis que 
                     você encontra hoje nos postos e clique no botão “calcular” para saber qual é a melhor opção.
                 </P>
-    </div>
-    <section>
+     </section>    
+     <section class="caixa-calculo">
         <h2>Calcule os preços</h2>
             <input type="number" placeholder="Preço do álcool">
             <input type="number" placeholder="Preço da gasolina">
             <button class="botao-calculo" id="btnCalcular()">Calcular</button>
     </section>
+    <P>Caso queria consultar todos os postos e os preços em todo Brasil, <a href="https://maps.goodcard.com.br/ondecomprar_abastecimento/" target="_blank">clique aqui.</a></P>
+
+    </main>
 </body>
 </html>
