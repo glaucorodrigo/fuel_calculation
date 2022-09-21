@@ -7,44 +7,47 @@
     <title>Calculadora Álcool x Gasolina</title>
     <link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/imagens/icone-carro.png">      
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="/imagens/icone-carro.png">  
+
 </head>
 <body>
     <script src="/script.js"></script>
 <header>
-    <div class="caixa">
-       <h1> <img src="/imagens/carros_cabecalho2.png" alt="Logo do Seu carro seu bolso"><a href="index.html"></a></h1>
-        <nav>
-            <h1>
-            <ul class="navegacao">
-                <li><a href="index.html">Calcule</a></li>
-                <li><a href="dicas.html">Dicas</a></li>
-            </ul>
-            </h1>
+    <div class="cabecalho">
+        <img src="/imagens/icone-carro.png" alt="Logo do Seu carro seu bolso"><a href="index.html" class="logo"></a>      
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item">Calcule</a>
+            <a class="cabecalho-menu-item">Dicas</a>
         </nav>
     </div>
 </header>
-<main>
-    <section class="texto-principal">
-        <h1>Calculadora de combustível</h1>
-            <h2>Faça o cálculo e descubra qual é mais vantajoso.</h2>
-                <P>A principal diferença entre os dois combustíveis está na proporção entre o preço e o desempenho de cada um. 
+<main class="conteudo">
+    <section class="conteudo-principal">
+        <div class="conteudo-principal-escrito">
+            <h1 class="conteudo-principal-escritulo-titulo">Calculadora de combustível</h1>
+            <h2 class="conteudo-principal-escrito-subtitulo">Faça o cálculo e descubra qual é mais vantajoso.</h2>
+            <P class="texto-principal">A principal diferença entre os dois combustíveis está na proporção entre o preço e o desempenho de cada um. 
                     Esta calculadora do Meu Bolso em Dia compara o preço do litro do <strong>álcool</strong> e da <strong>gasolina</strong> e mostra qual é o combustível mais vantajoso, 
                     financeiramente, no momento.
                     O etanol vale a pena quando custar até 70% do valor da gasolina.
                     Preencha os campos abaixo com os preços dos combustíveis que 
                     você encontra hoje nos postos e clique no botão “calcular” para saber qual é a melhor opção.
-                </P>
+            </P>
+        </div>
      </section>    
      <section class="caixa-calculo">
-        <h2>Calcule os preços</h2>
-            <input type="number" placeholder="Preço do álcool">
-            <input type="number" placeholder="Preço da gasolina">
-            <input type="button" value="Calcular">
+        <div class="container">
+        <h1 class="titulo-caixa">Calcule os preços</h1><br>
+            <input type="number" placeholder="Preço do álcool" id="preco-alcool" class="input"><br><br>
+            <input type="number" placeholder="Preço da gasolina" id="preco-gasolina" class="input">
+            <button>Calcular</button>
+        </div>
     </section>
-    <P>Caso queria consultar todos os postos e os preços em todo Brasil, <a href="https://maps.goodcard.com.br/ondecomprar_abastecimento/" target="_blank">clique aqui.</a></P>
+    <P class="mapa">Caso queria consultar todos os postos e os preços em todo Brasil, <a href="https://maps.goodcard.com.br/ondecomprar_abastecimento/" target="_blank">clique aqui.</a></P>
 
     </main>
 </body>
+<footer>
+    <img src="/imagens/icone-carro.png">
+</footer>
 </html>
