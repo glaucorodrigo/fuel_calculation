@@ -54,6 +54,109 @@ body {
 .conteudo h2 {
     font-size: 1.5em;
     color: rgb(32, 58, 129);
+    padding: 30px;
+    text-align: center;
+}
+
+.texto-principal{
+    font-size: 1.2em;
+    padding: 30px;
+    text-align: justify;
+}
+
+.caixa-calculo {
+    display: inline-block;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px 1.5%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: rgb(82, 82, 79);
+    border-radius: 10px;    
+}
+
+.titulo-caixa {
+    color: white;
+}
+
+
+.container {
+    display: inline-block;
+    padding: 10px;
+}
+
+.input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(201, 199, 101);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.mapa {
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+footer {
+      background-color: rgb(181, 209, 191);
+      display: flex;
+      justify-content: center;
+}
+
+/* Pagina de dicas*/
+
+  
+
+
+.titulo-dicas {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    text-align: justify,center;
+}
+
+
+.texto-dicas-principal p{
+    font-size: 30px;
+    font-size: 1.2em;
+    text-align:justify;
+    width: 90%;
+    text-indent: 20px;
+    padding-left: 10%;
+}
+
+.texto-dicas-principal h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(32, 58, 129);
+    padding: 10px;
+    padding-left: 10%;
+}
+
+.texto-video {
+    font-size: 30px;
+    padding:20px;
+    font-weight: bold;
+    text-align: center;
+}
+.video {
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+    padding:10px;
 }
 
 
