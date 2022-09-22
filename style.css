@@ -24,10 +24,6 @@ body {
     
 }
 
-.logo {
-    height: 72px;
-}
-
 .cabecalho-menu{
     display: flex;
     gap: 32px;
@@ -117,7 +113,10 @@ footer {
 
 /* Pagina de dicas*/
 
-  
+.texto-dicas {
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+}
 
 
 .titulo-dicas {
