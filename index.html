@@ -36,15 +36,18 @@
                     você encontra hoje nos postos e clique no botão “calcular” para saber qual é a melhor opção.
             </P>
         </div>
-     </section>    
-     <section class="caixa-calculo">
+     </section>   
         <div class="container">
-        <h1 class="titulo-caixa">Calcule os preços</h1><br>
-            <input type="number" placeholder="Preço do álcool" id="preco-alcool" class="input"><br><br>
-            <input type="number" placeholder="Preço da gasolina" id="preco-gasolina" class="input">
-            <button>Calcular</button>
+        <div class="titulo-container">
+        <h1 class="titulo-caixa">Calcule os preços</h1>
+        <div class="input.container">
+           <p class="campo-input">Preço do álcool</p> <input type="number" placeholder="Preço do álcool" id="preco_alcool" class="input">
+           <p class="campo-input">Preço da gasolina</p> <input type="number" placeholder="Preço da gasolina" id="preco_gasolina" class="input">
+            <button type="button" onclick="calculo()">Calcular</button>
         </div>
-    </section>
+        </div> 
+        </div>
+        <p id="resultado"></p>
     <P class="mapa">Caso queria consultar todos os postos e os preços em todo Brasil, <a href="https://maps.goodcard.com.br/ondecomprar_abastecimento/" target="_blank">clique aqui.</a></P>
 
     </main>
