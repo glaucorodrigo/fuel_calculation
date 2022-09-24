@@ -117,11 +117,18 @@ button:hover {
 }
 
 .calculo-resposta {
-    font-size: 35px;
-    padding: 20px;
+    font-size: 40px;
+    padding: 30px;
     display: flex;
+   
 }
 
+#resultado {
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+
+    }   
 .mapa {
     font-weight: bold;
     margin-top: 20px;
