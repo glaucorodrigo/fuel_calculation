@@ -81,6 +81,9 @@ body {
     width: fit-content;
     height: 300px;
     margin-top: 30px;   
+    display: flex;
+    margin-left: 40%;
+    
 }
 
 .titulo-container {
@@ -190,5 +193,16 @@ footer {
     padding:10px;
 }
 
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+    * {
+        flex-wrap: wrap;
+    }
+       
+}
 
 
