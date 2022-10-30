@@ -78,17 +78,20 @@ body {
     box-sizing: border-box;
     border-radius: 10px;
     background-color: rgb(190, 205, 240);
-    width: fit-content;
-    height: 300px;
+    width: 20%;
+    height: 20%;
     margin-top: 30px;   
     display: flex;
     margin-left: 40%;
-    
-}
+    text-align: center;
+    flex-direction: column;
+    }
 
 .titulo-container {
     color: black;
     padding: 10px;
+   
+    
     }
 
 .input.container {
@@ -102,19 +105,25 @@ body {
     padding: 10px;
     
 }
-button {
-    padding: 10px;
+.button {
     width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: black;
     font-weight: bold;
-    display: flex;
-    margin-top: 20px;
     background-color: rgb(247, 246, 214);
     cursor: pointer;
     font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    
+    
 }
 
-button:hover {
+.button:hover {
     background-color: bisque;
     transition: 0.5s;
 }
@@ -130,6 +139,8 @@ button:hover {
     font-size: 30px;
     font-weight: bold;
     color: brown;
+    text-align: center;
+    margin-top: 10px;
 
     }   
 .mapa {
