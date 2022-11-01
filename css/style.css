@@ -152,18 +152,17 @@ body {
 
 footer {
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: rgb(181, 209, 191);
-    margin-bottom: 0;
     padding: 10px;
     flex-direction: column;
+    
 }
 
 footer p {
     margin-bottom: 30px;
     font-size: 20px;
-    font-weight: bold;
-    display: flex;
+    font-weight: bold;    
 }
 
 /* Pagina de dicas*/
