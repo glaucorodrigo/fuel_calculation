@@ -88,11 +88,10 @@ body {
     }
 
 .titulo-container {
-    color: black;
+    color: rgb(12, 12, 12);
     padding: 10px;
-   
     
-    }
+}
 
 .input.container {
     display: flex;
@@ -160,7 +159,6 @@ footer {
 }
 
 footer p {
-    margin-bottom: 30px;
     font-size: 20px;
     font-weight: bold;    
 }
