@@ -1,16 +1,16 @@
-<h1>Cálculo de abastecimento<h1>
-<h2> Ferramenta efetua o cálculo com bases no preço dos combustíveis e passa o resultado de qual é mais vantajoso utilizar<h2>
+<h1>Cálculo de abastecimento</h1>
+Ferramenta efetua o cálculo com bases no preço dos combustíveis e passa o resultado de qual é mais vantajoso utilizar
 
-<h2> Objetivos do projeto:<h2>
+<h2> Objetivos do projeto:</h2>
 
 <p>Evoluir no posicionamento dos elementos e elaborar uma página já com espaçamento lateral para anúncios.<p>
 
-<h2> IDE utilizada <h2>
+<h2> IDE utilizada </h2>
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 
-<h2> Tecnologias utilizadas<h2>
+<h2> Tecnologias utilizadas</h2>
 
 	
   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
