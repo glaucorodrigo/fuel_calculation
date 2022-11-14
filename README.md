@@ -1,5 +1,6 @@
 <h1>Cálculo de abastecimento</h1>
-Ferramenta efetua o cálculo com bases no preço dos combustíveis e passa o resultado de qual é mais vantajoso utilizar
+Ferramenta efetua o cálculo com bases no preço dos combustíveis e passa o resultado de qual é mais vantajoso utilizar. 
+Inserindo os valores do álcool e gasolina é feito o cálculo e retorna para o usuário com qual combustível é melhor abastecer, visando economia. 
 
 <h2> Objetivos do projeto:</h2>
 
