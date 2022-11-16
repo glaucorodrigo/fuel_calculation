@@ -4,7 +4,7 @@ Inserindo os valores do álcool e gasolina é feito o cálculo e retorna para o 
 
 <h2> Objetivos do projeto:</h2>
 
-<p>Evoluir no posicionamento dos elementos e elaborar uma página já com espaçamento lateral para anúncios.<p>
+<p>Evoluir no posicionamento dos componentes e simular uma página com espaçamento lateral para anúncios.<p>
 
 <h2> IDE utilizada </h2>
 
