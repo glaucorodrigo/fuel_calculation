@@ -4,7 +4,7 @@ Inserindo os valores do álcool e gasolina é feito o cálculo e retorna para o 
 
 <h2> Objetivos do projeto:</h2>
 
-<p>Evoluir no posicionamento dos componentes e simular uma página com espaçamento lateral para anúncios.<p>
+<p>Evoluir no posicionamento dos componentes e simular uma página com espaçamento lateral para anúncios. Entender como funciona a integraçao do javascript retornando resultados para a página.<p>
 
 <h2> IDE utilizada </h2>
 
