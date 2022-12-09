@@ -11,9 +11,9 @@ Inserindo os valores do álcool e gasolina é feito o cálculo e retorna para o 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 
-Deploy:
+<h3>Deploy:</h3>
 
-fuelcalculation.netlify.app
+https://fuelcalculation.netlify.app
 
 <h2> Tecnologias utilizadas</h2>
 
